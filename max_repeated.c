@@ -21,17 +21,20 @@ int main()
         int a[10]={0};
         for(int i=0;i<n;i++)
         {
-            a[l[i]-1]=a[l[i]-1]+1;
-            a[h[i]]=a[h[i]]-1;
+            a[l[i]]=a[l[i]]+1;
+            a[h[i]+1]=a[h[i]+1]-1;
         }
         
         int max1=a[0];
         for(int i=0;i<max;i++)
         {
             if(a[i]>max1)
+            {
                 max1=a[i];
+                    num=i;
+            }
             a[i+1]=a[i+1]+a[i];
         }
-           printf("%d\n",max1);
+           printf("%d\n",num);
   return 0;
 }   
