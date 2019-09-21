@@ -1,0 +1,28 @@
+poker(python)
+counting pair
+get nth largest and smallest element using quick sort
+bitwise related question 
+sorting technique(bubble,selection,merge,quick,insertion,count,radix,heap,tim);
+gcc filename
+gdb ./a.out
+von -v
+b lineno b sink
+b lineno b del_max
+p is the varialbe to scan
+q for quit
+next m b sink
+problem we have a continue series of 0 and 1 and we have to find modulus of 3 
+median of stream of random integer (can be implemented by using two stack that can contain half element in one stack and another in other half element 
+
+Problem:- You have to open k clinic in n citites and the maximum load on a clinic is minimum
+Solution:
+Greedy solution
+sort the data by using max heap
+divide the max with no of cities
+priority queue
+Binary search tree
+delete a node in BST
+Get Floor
+Get Ceiling
+Traverse(in,pre,post,level)
+
