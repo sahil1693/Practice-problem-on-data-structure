@@ -33,6 +33,8 @@ printf("%d ",a[i]);
 
 //Complexity
 /*
-Time complexity : O(n^2)
+Time complexity : O(n^2) (in worst case)
+Time complexity : O(n) (in best case when data already sorted)
 space complexity : O(1)
+Stable : Yes (does not change relative order)
 */

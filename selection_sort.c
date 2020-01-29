@@ -28,6 +28,7 @@ int main(){
 
 /*
 Complexity
-Time complexity : O(n^2)
+Time complexity : O(n^2) in all cases
 Space complexity : O(n^2)
+Stable : No
 */
